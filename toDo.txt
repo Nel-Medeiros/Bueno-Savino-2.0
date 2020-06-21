@@ -1,0 +1,7 @@
+[ok] - Configurar o menu-toggler para ser exibido apenas em telas menores que 768px;
+[ok] - Criar um NavBar para versão Desktop;
+[ok] - Alinhar links dentro do navbar;
+[ok] - Configurar o nav desktop para sumir em telas menores que 768px;
+[ok] - Configurar nav para ficar transparente quando no topo e com fundo durante o scrolling;
+[ok] - Inserir estilização para o link ativo do navbar;
+[] - Inserir o conteúdo oficial das sections;
