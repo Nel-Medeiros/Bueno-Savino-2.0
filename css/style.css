@@ -1053,17 +1053,29 @@ footer {
     }          
 
    .page-end {       
-       height: 500px;
-   }  
+       height: 600px;
+   }    
    
    .page-end p {
-       margin-top: 7rem;
+    margin-top: 7rem;
+} 
+   
+   .page-end p {
+       margin-top: 15rem;
    }
 
     .contIconList li{
         margin: 3px 1rem;
     }
 
+}
+
+@media screen and (max-width: 480px){
+    .footer-logo {
+        background: url('../assets/logo&text-306x106.png');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
 }
 
 /*End media queries*/
