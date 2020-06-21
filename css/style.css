@@ -909,11 +909,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px){
-    body{
-        background: url("../img/bkg2.png") no-repeat center fixed;
-        background-size: cover;
-    }
+@media screen and (max-width: 768px){    
 
     .landing-text h1{
         font-size: 10rem;
@@ -1009,7 +1005,7 @@ footer {
     }
 
     .landing-text h6{
-        font-size: 2rem;        
+        font-size: 6rem;        
     }
 
     .nav-link{
