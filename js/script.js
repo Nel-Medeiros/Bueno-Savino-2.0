@@ -2,9 +2,9 @@ $(document).ready(function (){
     //Adição ou remoção da classe nav-transparent on scrolling
     $(window).scroll(function(){
         if ($(this).scrollTop() > 50) {
-            $('#def-nav').removeClass('nav-transparent');
+            $('#nav-wrapper').removeClass('nav-transparent');
         } else {
-            $('#def-nav').addClass('nav-transparent');
+            $('#nav-wrapper').addClass('nav-transparent');
         }
     })   
     //FIM da função de add/remove class 'nasv-transparent'-------------------------------------------------------------- 
