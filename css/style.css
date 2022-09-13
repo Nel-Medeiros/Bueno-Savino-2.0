@@ -988,8 +988,10 @@ header {
 }
 
 .map {
+    display: flex;
     flex: 2;
     align-self: center;
+    justify-content: center;
     padding-top: 15px;
     padding: 3rem;
 }
@@ -1000,6 +1002,10 @@ header {
 
 .map img:hover {
     transform: scale(1.1);
+}
+
+.map a {
+    width: auto;
 }
 
 .contact-adv {
@@ -1172,16 +1178,16 @@ footer {
 .whatsapp {
     position: fixed;
     right: 5px;
-    top: 52%;
+    bottom: 6%;
     z-index: 999;
 }
 
 .whatsapp h5 {
     color: #f5f5f5;
     background: #20b20f;
-    padding: 18px;
+    padding: 15px;
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .whats-box {
@@ -1190,7 +1196,7 @@ footer {
     padding: 10px;
     position: fixed;
     right: 30px;
-    top: 45%;
+    bottom: 10%;
     z-index: 999;
     border-radius: 10px;
     font-weight: bold;
@@ -1204,17 +1210,6 @@ footer {
 .whats-box {
     font-size: 2rem;
 }
-
-.whats-profile-img {
-    height: 60px;
-    width: 60px;
-    background-image: url("../img/whats-profile.jpeg");
-    background-position: center;
-    background-size: contain;
-    border-radius: 50%;
-    margin-bottom: 5px;
-}
-
 
 /*Start animations*/
 /* @keyframes nudge {
