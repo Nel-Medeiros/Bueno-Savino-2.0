@@ -545,6 +545,10 @@ header {
     transform: translateY(-100%);
 }
 
+.trab-slide {
+    background-image: url('../img/diagonal-slide-im1.png');
+}
+
 .hide {
     display: none;
 }
@@ -1284,6 +1288,10 @@ footer {
 @media screen and (max-width: 768px) {
     .default-nav {
         display: none;
+    }
+
+    .trab-slide {
+        background-image: url("../img/trab-mob.webp");
     }
 }
 
