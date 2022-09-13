@@ -1311,6 +1311,7 @@ footer {
 
     .about .container {
         flex-direction: column-reverse;
+        height: auto;
     }
 
     .about-img {
