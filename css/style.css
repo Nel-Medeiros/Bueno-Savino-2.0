@@ -183,7 +183,7 @@ header {
 
 
 .nav-transparent {
-    background: transparent;
+    background-color: rgba(0, 0, 0, .5);
     color: var(--text-primary-color);
     box-shadow: none;
     padding-top: 15px;
@@ -253,10 +253,9 @@ header {
 }
 
 .nav-logo {
-    height: 120px;
+    height: 67px;
     margin-top: 25px;
     width: 100%;
-    padding: 4% 0;
     cursor: pointer;
     position: absolute;
     background: url('../assets/menu-logo.png');
