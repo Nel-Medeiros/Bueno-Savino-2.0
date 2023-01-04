@@ -1,7 +1,7 @@
 /*Start global*/
 :root {
-    --primary-color: #8B3131;
-    --secondary-color: #FCEE71;
+    --primary-color: #CD8C52;
+    --secondary-color: #DCAF86;
     --text-primary-color: #EEE;
     --text-secondary-color: #212121;
 }
@@ -253,7 +253,8 @@ header {
 }
 
 .nav-logo {
-    height: 110px;
+    height: 120px;
+    margin-top: 25px;
     width: 100%;
     padding: 4% 0;
     cursor: pointer;
@@ -1071,7 +1072,7 @@ header {
     justify-self: center;
     width: 250px;
     height: 350px;
-    border: 1px solid #FCEE71;
+    border: 1px solid var(--secondary-color);
     transition: all 1s ease;
     background-size: cover;
     background-position: center;
@@ -1079,7 +1080,7 @@ header {
 
 .atc:hover {
     transform: scale(1.1);
-    border: 5px solid #FCEE71;
+    border: 5px solid var(--secondary-color);
 }
 
 .atc-01 {
@@ -1121,7 +1122,7 @@ footer {
 
 .footer-logo {
     height: 250px;
-    background-image: url('../assets/logo&text.png');
+    background-image: url('../assets/footer-img.png');
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1252,7 +1253,7 @@ footer {
     }
 
     50% {
-        background-color: #ffe838;
+        background-color: var(--secondary-color);
     }
 
     100% {
